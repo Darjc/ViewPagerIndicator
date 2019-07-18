@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node  path="/api/package[@name='com.rd']/interface[@name='IndicatorManager.Listener']" />
+
+    <!-- Fix BaseAnimation::createAnimation and BaseAnimation::progress -->
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='BaseAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='BaseAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='ColorAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='ColorAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+    
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SwapAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SwapAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='DropAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='DropAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='WormAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='WormAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='createAnimator' and count(parameter)=0]" name="return">com.rd.animation.type.BaseAnimation</attr>
+<attr path="/api/package[@name='com.rd.animation.type']/class[@name='SlideAnimation']/method[@name='progress' and count(parameter)=1 and parameter[1][@type='float']]" name="return">com.rd.animation.type.BaseAnimation</attr>
+
+
+    
+</metadata>

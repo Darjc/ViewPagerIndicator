@@ -1,0 +1,10 @@
+System.Runtime
+Xamarin.Android.Arch.Core.Common
+Xamarin.Android.Arch.Lifecycle.Common
+Xamarin.Android.Arch.Lifecycle.Runtime
+Xamarin.Android.Support.Annotations
+Xamarin.Android.Support.Collections
+Xamarin.Android.Support.Compat
+Xamarin.Android.Support.CustomView
+Xamarin.Android.Support.VersionedParcelable
+Xamarin.Android.Support.ViewPager

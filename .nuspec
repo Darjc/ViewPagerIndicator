@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>Com.Areamovil.Darwcode9</id>
+    <version>1.0.0</version>
+    <title>PageIndicatorViewBinding - Xamarin.Android</title>
+    <authors>Areamovil Ltd.</authors>
+    <owners>Darwin Jimenez</owners>
+    <owners>Hector Satizabal</owners>
+    <licenseUrl>https://github.com/romandanylyk/PageIndicatorView</licenseUrl>
+    <projectUrl>https://github.com/romandanylyk/PageIndicatorView</projectUrl>
+    <iconUrl>https://www.website.com/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Binding for PageIndicatorView</description>
+    <releaseNotes>Initial 1.0.0 release</releaseNotes>
+    <copyright>Copyright 2019 CompanyLtd</copyright>
+    <tags>pageindicatorview viewpager indicator</tags>
+    <dependencies>
+    </dependencies>
+    <summary> A summary of your package </summary>
+  </metadata>
+</package>
